@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "dataBinding"
+  "defaultProject": "dataBinding",
+  "cli": {
+    "analytics": false
+  }
 }

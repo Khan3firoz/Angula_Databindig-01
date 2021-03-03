@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dataBinding';
+  fontColor = 'blue';
+  canClick=false
+  sayMessage() {
+    alert(this.title);
+}
 }
